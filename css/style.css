@@ -1,0 +1,120 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background: #161815;
+}
+#menu-lateral{
+    z-index: 999;
+}
+.container a{
+    font-size: 20px;
+}
+#titulo{
+    font-size: 30px;
+}
+.section-padding{
+    padding: 70px 0;
+}
+.carousel-item{
+    height:100vh;
+    min-height: 500px;
+}
+.carousel-caption{
+    bottom: 200px;
+    z-index: 2;
+}
+.carousel-caption h5{
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.364);
+    z-index: 1;
+}
+#nosotros{
+    padding-top: 80px;
+    height: 100vh;
+    
+    
+}
+#nivel-1{
+    height: 100vh;
+    padding-top: 5%;
+}
+#nivel-1 img{
+    width: 700px;
+    height: 500px;
+}
+
+#nivel-2{
+    height: 100vh;
+    padding-top: 5%;
+}
+#nivel-2 img{
+    width: 700px;
+    height: 500px;
+}
+#nivel-3{
+    height: 100vh;
+    padding-top: 5%;
+}
+#nivel-3 img{
+    width: 700px;
+    height: 500px;
+}
+#nivel-4{
+    height: 100vh;
+    padding-top: 5%;
+}
+#nivel-4 img{
+    width: 700px;
+    height: 500px;
+}
+#nivel-5{
+    height: 100vh;
+    padding-top: 5%;
+}
+#nivel-5 img{
+    width: 700px;
+    height: 500px;
+}
+#nivel-6{
+    height: 100vh;
+    padding-top: 5%;
+}
+#nivel-6 img{
+    width: 700px;
+    height: 500px;
+}
+#nivel-7{
+    height: 100vh;
+    padding-top: 5%;
+}
+#nivel-7 img{
+    width: 700px;
+    height: 500px;
+}
+#contacto h1{
+    font-size: 60px;
+    padding: 40px;
+}
+@media (max-width: 768px) {
+    .carousel-inner img {
+      height: 80vh; 
+    }
+  }
